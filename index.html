@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>EVALUACION 2DO PARCIAL</title>
+</head>
+<body>
+    <h1>EVALUACION 2DO PARCIAL</h1>
+    
+    <div>
+        <!-- Calculadora -->
+        <div>
+            <h3>CALCULADORA</h3>
+            <input type="text" id="numero1">
+            <input type="text" id="numero2">
+            <button onclick="document.getElementById('resultadoCalculadora').value = +document.getElementById('numero1').value + +document.getElementById('numero2').value">+</button>
+            <button onclick="document.getElementById('resultadoCalculadora').value = document.getElementById('numero1').value - document.getElementById('numero2').value">-</button>
+            <button onclick="document.getElementById('resultadoCalculadora').value = document.getElementById('numero1').value * document.getElementById('numero2').value">*</button>
+            <button onclick="document.getElementById('resultadoCalculadora').value = document.getElementById('numero1').value / document.getElementById('numero2').value">/</button>
+            <input type="text" id="resultadoCalculadora">
+        </div>
+        
+        <!-- Área Triángulo -->
+        <div>
+            <h3>AREA DE UN TRIANGULO</h3>
+            <input type="text" id="base">
+            <input type="text" id="altura">
+            <button onclick="document.getElementById('resultadoArea').value = (document.getElementById('base').value * document.getElementById('altura').value) / 2">CALCULAR</button>
+            <input type="text" id="resultadoArea">
+        </div>
+    </div>
+</body>
+</html>
